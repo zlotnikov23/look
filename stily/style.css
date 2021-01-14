@@ -1,0 +1,314 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box__header {
+    display: flex;
+    justify-content: center;
+}
+.box__column__img {
+    background: url(../img/imag-2.jpg);
+    background-size: 690px 715px;
+    width: 769px;
+    height: 715px;
+}
+
+.box__column {
+    width: 590px;
+    height: 715px;
+}
+
+#menu__toggle {
+    opacity: 0;
+}
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 17px 20px;
+    top: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+}
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+.menu__item:hover {
+    background-color: #cfd8dc;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+.box_text_lines {
+    margin: 19px;
+    padding: 7px;
+    margin-bottom: 0.3em;
+}
+.box__row {
+    font-family: 'Padauk', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.box__row__too {
+    font-weight: 900;
+    font-family: 'Padauk', sans-serif;
+    font-size: 30px;
+}
+.box__row__tree {
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 30px;
+}
+
+.box__string {
+    margin-top: 60px;
+    line-height: 1.5em;
+}
+
+.box__string__indent {
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+.box_row_article {
+    display: flex;
+    justify-content: center;
+}
+.box__article {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 4.25;
+    width: 614px;
+    height: 851px;
+    background: url(../img/fon.jpg);
+}
+
+.box_article_blok {
+    width: 754px;
+    height: 850px;
+}
+
+.box_article_naviges {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 4.25;
+    width: 754px;
+    height: 427px;
+    background: url(../img/fons.jpg);
+}
+
+.box_article_text_string {
+    margin: 18px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 34px;
+    color: #000000;
+}
+
+.box_article_text {
+    margin: 18px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 34px;
+    color: #ffffff;
+}
+
+.box__article_blok_row {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 4.25;
+    width: 754px;
+    height: 424px;
+    background: url(../img/fons2.png);
+}
+.box_aricle_text {
+    margin: 18px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 34px;
+    color: #ffffff;
+}
+span.heading {
+    font-weight: 900;
+    font-family: 'Padauk', sans-serif;
+}
+.box_article_string {
+    color: #ffffff;
+    margin: -4px 22px 4px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.box_article_color {
+    color: #000000;
+    margin: -4px 22px 4px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.box_article_string {
+    color: #ffffff;
+    margin: -4px 22px 4px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.button_box_article-one {
+    margin: 18px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 211px;
+    background-color: inherit;
+}
+.button_box_article-two {
+    margin: 18px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 211px;
+    background-color: inherit;
+    color: #ffffff;
+}
+
+.box_footer {
+    display: flex;
+    justify-content: center;
+}
+.box__footer__cont {
+    display: flex;
+    width: 1366px;
+    height: 715px;
+}
+.box__footer_blok {
+    width: 454px;
+    height: 711px;
+    background: url(../img/stell7.png);
+}
+.box__footer_field {
+    width: 909px;
+    height: 711px;
+
+    background: url(../img/Rectangle\ 2.png);
+}
+.box_footer_sintering {
+    margin: 74px 4px 0px;
+    padding: 11px 65px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+}
+span.page_font {
+    padding: 2px 8px 0px;
+    margin: 1px 9px 0px -3px;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: 'Padauk', sans-serif;
+}
+.box_footer_icon {
+    margin: 242px 73px 16px;
+    background: url(../img/icon2.png);
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+.box_footer_string {
+    padding: 0px 7px 0px 42px;
+    margin: -17px 25px -64px;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Padauk', sans-serif;
+    color: #ffffff;
+}
+span.box_footer_text__font {
+    margin: 9px -8px 7px;
+    padding: 6px 10px 5px -3px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.box-field_contents {
+    margin: 52px 8px;
+    padding: 0px 46px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+}
+span.box-fild_bold_font {
+    font-weight: 600;
+    font-size: 39px;
+}
+
+.field_name {
+    width: 296px;
+    height: 47px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-color: #ffffff;
+}
+.field_email {
+    width: 296px;
+    height: 47px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-color: #ffffff;
+}
+input::-webkit-input-placeholder {
+    position: fixed;
+    color: #ffffff;
+    text-align: center;
+}
+
+.field {
+    margin: 1px;
+    padding: 7px 53px;
+}
+.from_fields {
+    margin: 5px 48px;
+    padding: 7px;
+}
+.field_message {
+    width: 608px;
+    height: 153px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-color: #ffffff;
+}
+
+.box_footer_text__font {
+    margin: 124px 59px 7px;
+    padding: 6px 10px 5px -3px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
