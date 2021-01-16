@@ -285,7 +285,7 @@ span.box-fild_bold_font {
 input::-webkit-input-placeholder {
     position: fixed;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
 }
 
 .field {
@@ -306,6 +306,53 @@ input::-webkit-input-placeholder {
 
 .box_footer_text__font {
     margin: 124px 59px 7px;
+    padding: 6px 10px 5px -3px;
+    font-weight: 100;
+    font-family: 'Padauk', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+.box_footer_button {
+    background: url('../img/Facebook.png');
+    background-size: cover;
+    width: 33px;
+    height: 30px;
+    margin: 0px 4px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.box_footer_button__too {
+    background: url('../img/dribbble.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin: 0px 4px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.box_footer_button-twitter {
+    background: url('../img/twitter\ \(1\).png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin: 0px 4px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.box_footer_pushy {
+    display: flex;
+    margin: 1px;
+    padding: 1px 58px;
+}
+.box_footer_text {
+    margin: 62px 59px 7px;
     padding: 6px 10px 5px -3px;
     font-weight: 100;
     font-family: 'Padauk', sans-serif;
