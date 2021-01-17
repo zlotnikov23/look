@@ -8,8 +8,8 @@
     justify-content: center;
 }
 .box__column__img {
-    background: url(../img/imag-2.jpg);
-    background-size: 690px 715px;
+    background: url(../img/imag-2.jpg) 100% 100% no-repeat;
+    background-size: cover;
     width: 769px;
     height: 715px;
 }
