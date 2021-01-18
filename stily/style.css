@@ -2,7 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .box__header {
     display: flex;
     justify-content: center;
@@ -10,12 +12,13 @@
 .box__column__img {
     background: url(../img/imag-2.jpg) 100% 100% no-repeat;
     background-size: cover;
-    width: 769px;
+    width: 908px;
     height: 715px;
+    background-color: #000000;
 }
 
 .box__column {
-    width: 590px;
+    width: 458px;
     height: 715px;
 }
 
@@ -26,7 +29,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    margin: 17px 20px;
+    margin: 45px 20px;
     top: 20px;
     width: 26px;
     height: 26px;
@@ -71,33 +74,39 @@
 .box_text_lines {
     margin: 19px;
     padding: 7px;
-    margin-bottom: 0.3em;
 }
 .box__row {
-    font-family: 'Padauk', sans-serif;
     font-size: 30px;
     font-weight: 100;
 }
 
 .box__row__too {
     font-weight: 900;
-    font-family: 'Padauk', sans-serif;
     font-size: 30px;
 }
 .box__row__tree {
-    font-weight: 100;
-    font-family: 'Padauk', sans-serif;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 31px;
+}
+.box_conter_text {
+    width: 423px;
+    height: 159px;
 }
 
 .box__string {
     margin-top: 60px;
-    line-height: 1.5em;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .box__string__indent {
     margin-top: 20px;
-    line-height: 1.5em;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 .box_row_article {
     display: flex;
@@ -106,10 +115,12 @@
 .box__article {
     display: inline-block;
     vertical-align: middle;
-    line-height: 4.25;
-    width: 614px;
-    height: 851px;
-    background: url(../img/fon.jpg);
+    line-height: 28px;
+    width: 613px;
+    height: 857px;
+    background: url(../img/fon.jpg) 100% 100% no-repeat;
+    background-size: cover;
+    background-color: #000000;
 }
 
 .box_article_blok {
@@ -120,74 +131,73 @@
 .box_article_naviges {
     display: inline-block;
     vertical-align: middle;
-    line-height: 4.25;
+    line-height: 28px;
     width: 754px;
     height: 427px;
-    background: url(../img/fons.jpg);
+    background: url(../img/fons.jpg) 100% 100% no-repeat;
+    background-size: cover;
 }
 
 .box_article_text_string {
-    margin: 18px;
+    margin: 64px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
-    font-size: 34px;
+    font-size: 45px;
     color: #000000;
 }
 
 .box_article_text {
-    margin: 18px;
+    margin: 71px 2px 26px 50px;
+    padding: 0px 4px 9px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
-    font-size: 34px;
+    font-size: 45px;
     color: #ffffff;
 }
 
 .box__article_blok_row {
     display: inline-block;
     vertical-align: middle;
-    line-height: 4.25;
+    line-height: 28px;
     width: 754px;
-    height: 424px;
-    background: url(../img/fons2.png);
+    height: 430px;
+    background: url(../img/fons2.png) 100% 100% no-repeat;
+    background-size: cover;
 }
-.box_aricle_text {
-    margin: 18px;
+.box_article_text {
+    margin: 61px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
-    font-size: 34px;
+    font-size: 45px;
     color: #ffffff;
 }
 span.heading {
     font-weight: 900;
-    font-family: 'Padauk', sans-serif;
 }
 .box_article_string {
     color: #ffffff;
-    margin: -4px 22px 4px;
+    margin: 1px 67px 4px;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 28px;
 }
 .box_article_color {
     color: #000000;
-    margin: -4px 22px 4px;
+    margin: 5px 70px 4px;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 28px;
 }
 .box_article_string {
     color: #ffffff;
-    margin: -4px 22px 4px;
+    margin: 1px 67px 4px;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 28px;
 }
 .button_box_article-one {
-    margin: 18px;
+    margin: 18px 69px;
     padding: 10px;
     border-radius: 7px;
     width: 211px;
     background-color: inherit;
 }
 .button_box_article-two {
-    margin: 18px;
+    margin: 18px 69px;
     padding: 10px;
     border-radius: 7px;
     width: 211px;
@@ -207,19 +217,19 @@ span.heading {
 .box__footer_blok {
     width: 454px;
     height: 711px;
-    background: url(../img/stell7.png);
+    background: url(../img/stell7.png) 100% 100% no-repeat;
+    background-size: cover;
 }
 .box__footer_field {
     width: 909px;
     height: 711px;
-
-    background: url(../img/Rectangle\ 2.png);
+    background: url(../img/Rectangle\ 2.png) 100% 100% no-repeat;
+    background-size: cover;
 }
 .box_footer_sintering {
     margin: 74px 4px 0px;
     padding: 11px 65px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
     font-size: 35px;
     color: #ffffff;
 }
@@ -228,12 +238,11 @@ span.page_font {
     margin: 1px 9px 0px -3px;
     font-size: 39px;
     font-weight: 600;
-    font-family: 'Padauk', sans-serif;
 }
 .box_footer_icon {
     margin: 242px 73px 16px;
-    background: url(../img/icon2.png);
-    background-size: 70px;
+    background: url(../img/icon2.png) 100% 100% no-repeat;
+    background-size: cover;
     width: 70px;
     height: 70px;
 }
@@ -243,14 +252,12 @@ span.page_font {
     margin: -17px 25px -64px;
     font-weight: 900;
     font-size: 40px;
-    font-family: 'Padauk', sans-serif;
     color: #ffffff;
 }
 span.box_footer_text__font {
     margin: 9px -8px 7px;
     padding: 6px 10px 5px -3px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
     font-size: 15px;
     color: #ffffff;
 }
@@ -259,7 +266,6 @@ span.box_footer_text__font {
     margin: 52px 8px;
     padding: 0px 46px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
     font-size: 35px;
     color: #ffffff;
 }
@@ -308,12 +314,11 @@ input::-webkit-input-placeholder {
     margin: 124px 59px 7px;
     padding: 6px 10px 5px -3px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
     font-size: 15px;
     color: #ffffff;
 }
 .box_footer_button {
-    background: url('../img/Facebook.png');
+    background: url('../img/Facebook.png') 100% 100% no-repeat;
     background-size: cover;
     width: 33px;
     height: 30px;
@@ -324,7 +329,7 @@ input::-webkit-input-placeholder {
     cursor: pointer;
 }
 .box_footer_button__too {
-    background: url('../img/dribbble.png');
+    background: url('../img/dribbble.png') 100% 100% no-repeat;
     background-size: cover;
     width: 30px;
     height: 30px;
@@ -335,7 +340,7 @@ input::-webkit-input-placeholder {
     cursor: pointer;
 }
 .box_footer_button-twitter {
-    background: url('../img/twitter\ \(1\).png');
+    background: url('../img/twitter\ \(1\).png') 100% 100% no-repeat;
     background-size: cover;
     width: 30px;
     height: 30px;
@@ -355,7 +360,6 @@ input::-webkit-input-placeholder {
     margin: 62px 59px 7px;
     padding: 6px 10px 5px -3px;
     font-weight: 100;
-    font-family: 'Padauk', sans-serif;
     font-size: 15px;
     color: #ffffff;
 }
