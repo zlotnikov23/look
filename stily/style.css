@@ -235,7 +235,7 @@ span.heading {
 }
 span.page_font {
     padding: 2px 8px 0px;
-    margin: 1px 9px 0px -3px;
+    margin: 1px 9px 0px 1px;
     font-size: 39px;
     font-weight: 600;
 }
@@ -249,14 +249,14 @@ span.page_font {
 
 .box_footer_string {
     padding: 0px 7px 0px 42px;
-    margin: -17px 25px -64px;
+    margin: 1px 25px 2px;
     font-weight: 900;
     font-size: 40px;
     color: #ffffff;
 }
 span.box_footer_text__font {
     margin: 9px -8px 7px;
-    padding: 6px 10px 5px -3px;
+    padding: 6px 10px 5px 1px;
     font-weight: 100;
     font-size: 15px;
     color: #ffffff;
@@ -312,7 +312,7 @@ input::-webkit-input-placeholder {
 
 .box_footer_text__font {
     margin: 124px 59px 7px;
-    padding: 6px 10px 5px -3px;
+    padding: 6px 10px 5px 1px;
     font-weight: 100;
     font-size: 15px;
     color: #ffffff;
@@ -358,7 +358,7 @@ input::-webkit-input-placeholder {
 }
 .box_footer_text {
     margin: 62px 59px 7px;
-    padding: 6px 10px 5px -3px;
+    padding: 6px 10px 5px 1px;
     font-weight: 100;
     font-size: 15px;
     color: #ffffff;
